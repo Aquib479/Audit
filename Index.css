@@ -1,0 +1,2010 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --container-width-lg: 88%;
+    --container-width-md: 92%;
+
+    --transition: all 4000ms ease;
+}
+
+section {
+    margin-top: 3rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 0.2rem;
+    font-size: 1.8rem;
+}
+
+h4 {
+    color: #2D83EE;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+}
+
+h5 {
+    color: white;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+i {
+    color: #2D83EE;
+    font-weight: 900;
+    margin-right: 0.5rem;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+* {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: var(--transition);
+}
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 2160px;
+}
+
+nav {
+    background: linear-gradient(256deg, #197af1, #132D6B, #15306F, #022b56, #000000);
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-bottom: 2rem;
+}
+
+.nav_container {
+    position: relative;
+    height: 4rem;
+    top: 12px;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle_btn {
+    display: none;
+}
+
+.nav_logo {
+    height: 100%;
+    width: 10.5rem;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.nav_links select {
+    background: rgb(6, 6, 96);
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+.nav_links li {
+    color: white;
+    margin: 0 2rem;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn button {
+    margin: 0 1.5rem;
+    color: white;
+    font-size: 1.1rem;
+    width: 8rem;
+    height: 2.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(254deg, #7184FD, #3F7AF0, #4F37EE);
+    box-shadow: 5px 8px 10px #00000029;
+}
+
+.btn #btn2 {
+    width: 12rem;
+}
+
+/********* End of NavBar ************/
+
+
+
+.nav_section_container-1 {
+    height: 100%;
+    position: relative;
+    top: 5rem;
+}
+
+.view {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 55% 40%;
+    gap: 5%;
+}
+
+.detail {
+    color: white;
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.description_title {
+    color: white;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+.btns {
+    width: 55%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    margin-top: 2rem;
+}
+
+.btns button {
+    height: 2.8rem;
+    width: 12rem;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px #2f2e2e29;
+
+}
+
+.btns #btns1 {
+    background: linear-gradient(256deg, #7184FD, #4E7DF4, #497CF3, #3F7AF0, #4F37EE);
+}
+
+.btns #btns2 {
+    background: linear-gradient(#132D6B, #132D6B) padding-box, linear-gradient(256deg, #7184FD, #357AF0, #4F37EE) border-box;
+    border: 1px solid transparent;
+}
+
+/************** END Of First Nav-Scetion  */
+
+
+.nav_section_container-2 {
+    height: 100%;
+    margin-top: 5rem;
+}
+
+.broke-item {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+}
+
+.num {
+    font-weight: bold;
+    color: #2D83EE;
+    font-size: 2.2rem;
+}
+
+.info {
+    margin-left: 1rem;
+    margin-right: 3rem;
+    color: white;
+    line-height: 1.6rem;
+}
+
+/************ END OF NAVBAR ****************/
+
+
+
+/************** HEADER ***************/
+
+header {
+    width: 100vw;
+    padding-bottom: 4rem;
+    place-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.header_container {
+    height: 100%;
+}
+
+/********** header section - 1 **************/
+
+.clients {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clients_lists {
+    color: #2D83EE;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/******************** END **********************/
+
+/********** header section - service **************/
+
+.services {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 45% 50%;
+    gap: 5%;
+}
+
+.service_client {
+    margin-top: 1rem;
+    display: grid;
+    row-gap: 4px;
+}
+
+#service1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#service2 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.service_button {
+    margin-top: 2rem;
+}
+
+.service_button button {
+    color: white;
+    font-size: 1.1rem;
+    width: 8rem;
+    height: 2.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(254deg, #7184FD, #3F7AF0, #4F37EE);
+    box-shadow: 5px 8px 10px #00000029;
+}
+
+.service_image img {
+    height: 24rem;
+    width: 24rem;
+}
+
+.due_detail {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/*************** END SERVICE SECTION **************/
+
+/*********** header section - security *********/
+
+.title {
+    margin-top: 2rem;
+    text-align: center;
+    height: 8rem;
+}
+
+/******** END *********/
+
+
+/************ SECTION SLIDER *************/
+.slider_container {
+    position: relative;
+    background: linear-gradient(256deg, #022b56, #15306F, #1c1b1b, #132D6B);
+}
+
+.slider_head {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#slider-2 {
+    background: linear-gradient(256deg, #022b56, #15306F, #1c1b1b, #132D6B);
+}
+
+.card_slider {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    border: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 100%;
+    background: none;
+}
+
+.card_image {
+    height: 284px;
+    width: 223px;
+    margin: 0 auto;
+}
+
+.card_image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card_button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_button .btn-primary {
+    background: none;
+    border: 1px solid #FFFFFF4B;
+}
+
+.card_button a {
+    height: 2.8rem;
+    width: 8rem;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1rem;
+}
+
+#carouselExampleControls {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-control-next {
+    left: auto;
+    font-size: 2rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.slider_button {
+    width: 40%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+    gap: 2%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.slider_button button {
+    background: transparent;
+    width: 9rem;
+    height: 2.8rem;
+    border-radius: 4rem;
+    border: 1px solid #E3E3E3;
+    color: white;
+}
+
+.active-button {
+    background-color: #2D83EE;
+    color: black;
+}
+
+.portfolio_button {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.portfolio_button button {
+    width: 9rem;
+    height: 2.8rem;
+    border-radius: 8px;
+    background: none;
+    border: 1px solid #FFFFFF4B;
+    color: white;
+}
+
+#slider-1 {
+    display: none;
+}
+
+/************************* END OF SLIDER **************************/
+
+
+
+/******************** SECTION WHY WE ARE HERE **********************/
+.why-here {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+}
+
+.here-left {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.here-left h4 {
+    margin-top: 0.5rem 0;
+}
+
+.here-left h2 {
+    margin-top: 1rem 0;
+    line-height: 1.8;
+    width: 90%;
+}
+
+.here-button {
+    margin-top: 2rem;
+}
+
+.here-button button {
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin: 0;
+    width: 12rem;
+    height: 3.5rem;
+    background: linear-gradient(254deg, #7184FD, #3F7AF0, #4F37EE);
+    box-shadow: 5px 8px 10px #00000029;
+    color: white;
+}
+
+.here-right {
+    position: relative;
+}
+
+.massege div {
+    float: right;
+    width: 80%;
+    border-radius: 12px;
+    border: 1px solid #2D83EE;
+    box-shadow: 5px 0 10px #daeafc;
+    cursor: pointer;
+    color: #2D83EE;
+    transition: all 800ms ease-in-out;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.massege div:hover {
+    transform: translateY(-14px);
+    opacity: 1;
+    font-size: 1.2rem;
+    color: white;
+    background: #2D83EE;
+}
+
+.p1 {
+    opacity: 0.6;
+}
+
+.p1 p {
+    font-size: 0.8rem;
+}
+
+.p2 {
+    opacity: 0.8;
+    margin-right: 4rem;
+}
+
+.p2 p {
+    font-size: 1rem;
+}
+
+.p3 {
+    opacity: 1;
+    margin-right: 10rem;
+}
+
+
+/******************** END SECTION WHY WE ARE HERE **********************/
+
+
+/******************** SECTION MENTIONS **********************/
+.mention {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mention-h4 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.mention-h2 {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.m-card {
+    margin: 0.5rem;
+    border: 1px solid #2D83EE;
+    border-radius: 20px;
+    box-shadow: 5px 8px 10px #00000029;
+}
+
+.m-card a {
+    color: #2D83EE;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#mention-m5 {
+    margin-top: 6rem;
+}
+
+#mention-m6 {
+    margin-top: 5rem;
+}
+
+.m1 {
+    margin-top: 0.9rem;
+}
+
+.m3 {
+    margin-top: 1.2rem;
+}
+
+.m5 {
+    margin-top: 5rem;
+}
+
+.m6 {
+    margin-top: 3.5rem;
+}
+
+/******************** END SECTION MENTIONS **********************/
+
+
+
+
+/******************** SECTION TESTIMONIALS **********************/
+
+#testimonials {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 8rem;
+}
+
+.head {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head button {
+    border-radius: 10px;
+    margin: 0;
+    width: 12rem;
+    height: 3.2rem;
+    background: linear-gradient(254deg, #7184FD, #3F7AF0, #4F37EE);
+    box-shadow: 5px 8px 10px #00000029;
+    color: white;
+}
+
+.clients_review {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4%;
+}
+
+.clients-title {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.clients-msg {
+    margin: 0 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.review_by {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reviewer {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.reviewer-name {
+    font-size: 0.8rem;
+}
+
+h3 {
+    margin: 1rem 0;
+}
+
+/******************** END SECTION TESTIMONIALS **********************/
+
+
+
+/******************** SECTION FAQ **********************/
+#faq {
+    margin-top: 6rem;
+}
+
+.faq-h2 {
+    width: 60%;
+}
+
+.faqs {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.faq-button button {
+    border-radius: 10px;
+    margin: 0;
+    width: 12rem;
+    height: 3.2rem;
+    background: linear-gradient(254deg, #7184FD, #3F7AF0, #4F37EE);
+    box-shadow: 5px 8px 10px #00000029;
+    color: white;
+}
+
+.faq-left-p {
+    width: 80%;
+    margin: 2rem 0;
+    font-size: 0.8rem;
+}
+
+
+/* ****** css for accordion *****************/
+.accordioan {
+    width: 90%;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.accordion-header {
+    padding: 0.5rem 2rem;
+    width: 100%;
+    color: white;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-item {
+    border: 1px solid #2D83EE;
+}
+
+.accordion-header.active i {
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.size {
+    font-size: 2rem;
+}
+
+.accordion-body {
+    padding: 0 2rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-body.active {
+    max-height: 15rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+/******************** END FAQ SECTION *********************/
+
+
+/******************** BLOG SECTION *********************/
+#blog {
+    margin-top: 5rem;
+}
+
+.blogs {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.blog-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-button {
+    border-radius: 10px;
+    margin: 0;
+    width: 12rem;
+    height: 3.2rem;
+    background: linear-gradient(254deg, #7184FD, #3F7AF0, #4F37EE);
+    box-shadow: 5px 8px 10px #00000029;
+    color: white;
+}
+
+.blog-bottom {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7%;
+}
+
+.blog-card {
+    margin-top: 3rem;
+}
+
+.card-title {
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    color: #2D83EE;
+}
+
+.card-description {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/******************** END BLOG SECTION *********************/
+
+
+/******************** HASHING SECTION *********************/
+#hashing {
+    background: linear-gradient(256deg, #1c1b1b, #15306F, #133686, #0e2459);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hashing-1 {
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hash-logo {
+    width: 100%;
+    height: auto;
+}
+
+.hash-1 {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.hash-2 {
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.hash-3 i {
+    font-size: 1.2rem;
+    color: rgb(42, 204, 42);
+}
+
+.hash-3 span {
+    font-size: 0.8rem;
+}
+
+input[type=email] {
+    width: 70%;
+    padding: 18px 20px;
+    margin: 1.5rem 0;
+    display: inline-block;
+    border-radius: 16px;
+    background: #0000004D 0% 0% no-repeat padding-box;
+}
+
+.rgt {
+    position: relative;
+}
+
+.rgt-1 {
+    width: 38rem;
+    height: 22rem;
+    filter: saturate(50) brightness(0.3);
+}
+
+.rgt-2 {
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    top: 7rem;
+    left: 13rem;
+}
+
+/* ******************* END HASHING SECTION ******************** */
+
+
+/* ******************* JOIN SECTION ******************** */
+
+
+.join-container {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background: linear-gradient(254deg, #1974e4, #348af4, #1552ca);
+    color: white;
+}
+
+.join {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.join-left {
+    margin: 2.5rem 0;
+}
+
+.join-left-title {
+    margin: 2rem 0;
+}
+
+.join-span {
+    font-size: 0.9rem;
+}
+
+.join-button {
+    margin-top: 4rem;
+}
+
+.join-button button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 8px;
+    /* color: white; */
+}
+
+.join-right {
+    margin: 2.5rem 0;
+}
+
+.join-image {
+    width: 22rem;
+    height: 22rem;
+    margin: auto;
+}
+
+/******************** END JOIN SECTION ******************** */
+
+/************************** FOOTER *****************************/
+footer {
+    margin-top: 4rem;
+    background: #28293E;
+}
+
+.footer-container span {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10%;
+    padding-top: 2rem;
+}
+
+.foo-title {
+    font-size: 1.4rem;
+}
+
+/* --------- parent company ---------- */
+.parent-span {
+    margin-top: 1rem;
+}
+
+.parent-img1 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    width: 10.7rem;
+}
+
+/* -------- explore -------- */
+.explore {
+    display: grid;
+}
+
+.explore span {
+    margin: 5px 0;
+}
+
+/* -------- services ---------- */
+.service {
+    display: grid;
+}
+
+/* ---------- contact --------- */
+.contact {
+    display: grid;
+}
+
+.contact-span {
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.contact-email {
+    margin-top: 1.5rem;
+}
+
+.c-email {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* -------------------------------------- */
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.journey-image {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.journey-image a {
+    margin: 0 0.5rem;
+}
+
+.reserved {
+    padding-bottom: 2px;
+    color: white;
+    text-align: center;
+}
+
+.reserved p {
+    font-size: 0.9rem;
+}
+
+/************************ END OF FOOTER ************************/
+
+
+
+
+/************************ ADDING OF MEDIA QUERIES TO MAKE IT RESPONSIVE *******************/
+
+/* -------- medium screen --------- */
+
+@media screen and (max-width:1024px) {
+    .container {
+        width: var(--container-width-md);
+        position: relative;
+    }
+
+    h2 {
+        margin-top: 0.2rem;
+        font-size: 1.5rem;
+    }
+
+    p {
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    /************** NAV SECTION ***********/
+    .nav_links {
+        display: none;
+    }
+
+    /* -------------- nav container - 1 -------- */
+
+    .nav_section_container-1 {
+        height: 100%;
+        top: 0;
+        position: relative;
+    }
+
+    .detail {
+        color: white;
+        margin-top: 4rem;
+        font-size: 2rem;
+    }
+
+    .description_title {
+        color: white;
+        margin-top: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .btns {
+        width: 100%;
+    }
+
+    .image {
+        margin: auto;
+    }
+
+    /* ----------------- neav container - 2 ---------------- */
+    .broke-item {
+        width: 100%;
+    }
+
+    .num {
+        margin: 0 1rem;
+        font-size: 1.8rem;
+    }
+
+    .info {
+        margin-left: 3rem;
+        margin-right: 2rem;
+        font-size: 0.8rem;
+    }
+
+    /* --------------------- end of nav section ---------------- */
+
+
+    /* --------------------- header ------------------ */
+    .services {
+        width: 100%;
+    }
+
+    #service1 {
+        margin: 0;
+    }
+
+    .service_client {
+        margin-top: 0.7rem;
+        row-gap: 0;
+    }
+
+    #service2 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #service3 {
+        margin: 0 1rem;
+    }
+
+    .service_button {
+        margin-top: 1.5rem;
+    }
+
+    .service_image img {
+        height: 20rem;
+        width: 20rem;
+        margin: auto;
+    }
+
+    /* ------------------- end header ------------------ */
+
+
+    /* --------------------- slider -------------------- */
+
+    /************ SECTION SLIDER *************/
+    #slider-1 {
+        background: linear-gradient(256deg, #022b56, #15306F, #1c1b1b, #132D6B);
+    }
+
+    .slider_container {
+        position: relative;
+    }
+
+    .slider_button {
+        width: 100%;
+    }
+
+    .card_slider {
+        width: 60%;
+    }
+
+    .card_image {
+        margin: auto;
+    }
+
+    #carouselExampleControls {
+        width: 90%;
+    }
+
+    .portfolio_button {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    #slider-1 {
+        display: inline;
+    }
+
+    #slider-2 {
+        display: none;
+    }
+
+
+
+    /* ----------------- why are we here -------------- */
+    .why-here {
+        width: 100%;
+    }
+
+    .here-left h2 {
+        margin-top: 1rem;
+        line-height: 1.6;
+        width: 100%;
+    }
+
+    .massege div {
+        width: 100%;
+        padding: 0.5rem 1rem;
+    }
+
+    .p1 p {
+        font-size: 0.7rem;
+    }
+
+    .p2 p {
+        font-size: 0.8rem;
+    }
+
+    .p3 p {
+        font-size: 0.9rem;
+    }
+
+    /* ------------------ end why we are Here ---------------- */
+
+
+
+    /* ---------------- Mentions ------------------ */
+    .mention {
+        width: 100%;
+    }
+
+    #mention-m5 {
+        margin-top: 5rem;
+    }
+
+    #mention-m6 {
+        margin-top: 4rem;
+    }
+
+    #mention-m4 {
+        margin-top: 1.5rem;
+    }
+
+    .m4 {
+        margin-top: 0.2rem;
+    }
+
+    .m5 {
+        margin-top: 3.5rem;
+    }
+
+    .m6 {
+        margin-top: 3rem;
+    }
+
+    /* ------------------- end mention ---------------- */
+
+
+
+    /* ----------------- testimonials ------------------- */
+
+    #testimonials {
+        width: 90%;
+        margin-top: 6rem;
+    }
+
+    /* ------------------ end testimonials ---------------- */
+
+
+
+    /* ------------------- FAQ ------------------ */
+
+    .faqs {
+        width: 80%;
+    }
+
+    .accordion-header {
+        padding: 0.5rem 1rem;
+    }
+
+    /* ------------- end FAQ -------------- */
+
+
+    /* ------------------- BLOG ----------------- */
+    .blogs {
+        width: 100%;
+    }
+
+    /* ------------------- end BLOG ----------------- */
+
+
+    /* ------------------ Hashing ----------------- */
+
+    #hashing {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .hash-logo {
+        width: 25rem;
+        height: 4rem;
+    }
+
+    .hash-1 {
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .hash-2 {
+        margin: 1rem 0;
+        font-size: 0.8rem;
+    }
+
+    .hash-3 i {
+        font-size: 0.9rem;
+    }
+
+    .rgt {
+        display: none;
+    }
+
+    /* ----------------- end hashing ------------- */
+
+    /* -------------- footer ------------- */
+    .footer-top {
+        gap: 5%;
+    }
+
+    .journey-image {
+        width: 60%;
+    }
+
+}
+
+
+/* ------------ media quaery of mobile screen -------------- */
+/* -------------------------------------------------------- */
+/* ****************************************************************************************************************************** */
+
+@media screen and (max-width: 762px) {
+    section {
+        margin-top: 1rem;
+    }
+
+    nav {
+        padding-bottom: 1rem;
+    }
+
+    h2 {
+        margin-top: 0;
+        font-size: 0.8rem;
+    }
+
+    h4 {
+        font-size: 0.5rem;
+    }
+
+    p {
+        margin-top: 0.5rem;
+        font-size: 0.5rem;
+        line-height: 1.4;
+    }
+
+    /************** NAV SECTION ***********/
+    .nav_container {
+        height: 2rem;
+        top: 0;
+    }
+
+    .nav_logo {
+        width: 3.7rem;
+        height: 1rem;
+    }
+
+    .nav_links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        flex-direction: column;
+        background: green;
+        right: 0;
+    }
+
+    .btn {
+        flex-direction: column;
+    }
+
+    /* -------------- nav container - 1 -------- */
+
+    .detail {
+        margin-top: 1rem;
+        font-size: 0.7rem;
+    }
+
+    .description_title {
+        margin-top: 1rem;
+        font-size: 0.5rem;
+    }
+
+    .btns {
+        width: 100%;
+        display: flex;
+        margin-top: 0.5rem;
+    }
+
+    .btns button {
+        margin-top: 0;
+        width: 8rem;
+        height: 1.3rem;
+        font-size: 0.3rem;
+        border-radius: 5px;
+    }
+
+    /* ----------------- neav container - 2 ---------------- */
+    .nav_section_container-2 {
+        height: 100%;
+        margin-top: 1rem;
+    }
+
+    .broke-item {
+        width: 100%;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        place-items: center;
+    }
+
+    .num {
+        font-weight: bold;
+        color: #2D83EE;
+        font-size: 0.5rem;
+    }
+
+    .info {
+        margin-left: 0.2rem;
+        margin-right: 1rem;
+        line-height: 1.6;
+        font-size: 0.3rem;
+    }
+
+    /* --------------------- end of nav section ---------------- */
+
+
+    /* --------------------- header ------------------ */
+    .clients {
+        width: 100%;
+    }
+
+    .clients_lists {
+        font-size: 0.3rem;
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .services {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 45% 50%;
+        gap: 5%;
+    }
+
+    .service_client {
+        font-size: 0.6rem;
+        margin-top: 0;
+        display: grid;
+        row-gap: 0px;
+    }
+
+    #service1 {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    #service2 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .service_button {
+        margin-top: 0.5rem;
+    }
+
+    .service_button button {
+        font-size: 0.6rem;
+        width: 4rem;
+        height: 1.5rem;
+        border-radius: 4px;
+    }
+
+    .service_image img {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    #service-img-1 {
+        margin-top: 3rem;
+    }
+
+    #service-img-2 {
+        margin-top: 3.5rem;
+    }
+
+    #service-img-3 {
+        margin-top: 2rem;
+    }
+
+    .due_detail {
+        margin-top: 0;
+        font-size: 0.4rem;
+    }
+
+    /* ----- security---- */
+    .title {
+        height: 4rem;
+    }
+
+    /* ------------------- end header ------------------ */
+
+
+    /* --------------------- slider -------------------- */
+
+    .slider_head {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .card_slider {
+        width: 50%;
+    }
+
+    .card {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        width: 100%;
+        height: 22rem;
+    }
+
+    .card_image {
+        height: 184px;
+        width: 123px;
+        margin: 0 auto;
+    }
+
+    .card_image img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .card-body {
+        margin: 0;
+        text-align: center;
+    }
+
+    .card-body h5 {
+        font-size: 0.7rem;
+    }
+
+    .card_button {
+        flex-direction: column;
+    }
+
+    .card_button a {
+        margin: 0.5rem auto;
+        height: 1.8rem;
+        width: 6.5rem;
+        font-size: 0.4rem;
+    }
+
+    #carouselExampleControls {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .carousel-control-next {
+        left: auto;
+        font-size: 2rem;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .slider_button {
+        font-size: 0.5rem;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .slider_button button {
+        width: 5rem;
+        height: 1.8rem;
+        border-radius: 0.5rem;
+    }
+
+    .portfolio_button {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .portfolio_button button {
+        width: 7rem;
+        height: 2.2rem;
+        font-size: 0.7rem;
+    }
+
+    #slider-1 {
+        display: inline;
+    }
+
+    #slider-2 {
+        display: none;
+    }
+
+
+    /* ----------------- why are we here -------------- */
+    .why-here {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 0%;
+    }
+
+    .here-left {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .here-left h4 {
+        margin-top: 0.5rem 0;
+    }
+
+    .here-left h2 {
+        margin-top: 1rem 0;
+        line-height: 1.4;
+        width: 100%;
+    }
+
+    .here-button {
+        margin-top: 0;
+    }
+
+    .here-button button {
+        font-size: 0.6rem;
+        width: 6rem;
+        height: 1.5rem;
+        border-radius: 4px;
+    }
+
+    .massege div {
+        float: none;
+        width: 100%;
+        padding: 0.2rem 1rem;
+    }
+
+    .p1 p {
+        font-size: 0.6rem;
+    }
+
+    .p2 {
+        margin-right: 0rem;
+    }
+
+    .p2 p {
+        font-size: 0.7rem;
+    }
+
+    .p3 {
+        margin-right: 0rem;
+    }
+
+    .p3 p {
+        font-size: 0.8rem;
+    }
+
+    /* ------------------ end why we are Here ---------------- */
+
+
+
+
+    /* ---------------- Mentions ------------------ */
+    .mention {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mention-h4 {
+        margin-top: 1rem;
+    }
+
+    .mention-h2 {
+        margin: 0.5rem 0;
+    }
+
+    /* ------------------- end mention ---------------- */
+
+
+
+    /* ----------------- testimonials ------------------- */
+    #testimonials {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .head button {
+        border-radius: 4px;
+        margin: 0;
+        font-size: 0.6rem;
+        width: 4rem;
+        height: 1.5rem;
+    }
+
+    .clients_review {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review {
+        margin-top: 2rem;
+        border-bottom: 1px solid grey;
+    }
+
+    .reviewer {
+        margin-top: 0.8rem;
+    }
+
+    /* ------------------ end testimonials ---------------- */
+
+
+
+    /* ------------------- FAQ ------------------ */
+    #faq {
+        margin-top: 2rem;
+    }
+
+    .faq-h2 {
+        width: 100%;
+    }
+
+    .faqs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faq-button button {
+        border-radius: 4px;
+        font-size: 0.6rem;
+        width: 4rem;
+        height: 1.5rem;
+    }
+
+    .faq-left-p {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+
+    /* ****** css for accordion *****************/
+    .faq-right {
+        margin-top: 2rem;
+    }
+
+    .accordioan {
+        width: 100%;
+    }
+
+    .accordion-header {
+        padding: 0.5rem;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .size {
+        font-size: 1rem;
+    }
+
+    .accordion-body {
+        padding: 0 1rem;
+    }
+
+    .accordion-body.active {
+        max-height: 50rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* ------------- end FAQ -------------- */
+
+
+    /* ------------------- BLOG ----------------- */
+    #blog {
+        margin-top: 2rem;
+    }
+
+    .blogs {
+        width: 100%;
+    }
+
+    .blog-button {
+        border-radius: 4px;
+        font-size: 0.6rem;
+        width: 4rem;
+        height: 1.5rem;
+    }
+
+    .blog-bottom {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-card {
+        margin-top: 2rem;
+        border-bottom: 1px solid grey;
+    }
+
+    /* ------------------- end BLOG ----------------- */
+
+
+    /* ------------------ Hashing ----------------- */
+    .hash-logo {
+        max-width: 100%;
+        height: 2.5rem;
+    }
+
+    .hash-1 {
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .hash-2 {
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .hash-3 i {
+        font-size: 1.2rem;
+        color: rgb(42, 204, 42);
+    }
+
+    .hash-3 span {
+        font-size: 0.8rem;
+    }
+
+    input[type=email] {
+        width: 100%;
+    }
+
+    .rgt {
+        display: none;
+    }
+
+    /* ---------- end hashing ------------ */
+
+
+    /* ------------------ join ----------------- */
+    .join-container {
+        border-radius: 10px;
+    }
+
+    .join {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .join-left {
+        margin: 0;
+    }
+
+    .join-left-title {
+        margin: 1rem 0;
+    }
+
+    .join-span {
+        font-size: 0.6rem;
+    }
+
+    .join-button {
+        margin: 1rem 0;
+    }
+
+    .join-button button {
+        border-radius: 4px;
+        font-size: 1rem;
+        width: 8rem;
+        height: 2.5rem;
+    }
+
+    .join-right {
+        margin: 5rem 0;
+    }
+
+    .join-image {
+        width: 5rem;
+        height: 5rem;
+        margin: auto;
+    }
+
+
+    /* -------------- footer ------------- */
+    footer {
+        margin-top: 2rem;
+    }
+
+
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    .foo-title {
+        font-size: 1.4rem;
+    }
+
+    /* --------- parent company ---------- */
+    .parent-span {
+        margin-top: 0rem;
+    }
+
+    .parent-img1 {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        width: 10.7rem;
+    }
+
+    /* -------- explore -------- */
+    .explore {
+        display: grid;
+        margin-top: 2rem;
+    }
+
+    .explore span {
+        margin: 5px 0;
+    }
+
+    /* -------- services ---------- */
+    .service {
+        display: grid;
+        margin-top: 2rem;
+    }
+
+    /* ---------- contact --------- */
+    .contact-us {
+        display: grid;
+        margin-top: 2rem;
+    }
+
+    .contact-span {
+        color: white;
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+
+    .contact-email {
+        margin-top: 1rem;
+    }
+
+    .c-email {
+        color: white;
+        font-size: 2rem;
+    }
+
+    /* -------------------------------------- */
+    .footer-bottom {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .journey-image {
+        width: 100%;
+    }
+
+    .reserved {
+        padding-bottom: 2px;
+        color: white;
+        text-align: center;
+    }
+
+    .reserved p {
+        font-size: 0.9rem;
+    }
+
+}
